@@ -36,7 +36,7 @@ simple:json-routes
 aldeed:autoform
 accounts-ui 
 accounts-password 
-
-
+#matb33:bootstrap-glyphicons 
+#msavin:jetsetter 
 zimme:active-route 
-gwendall:auth-client-callbacks
+#gwendall:auth-client-callbacks
