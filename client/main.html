@@ -3,14 +3,17 @@
 </head>
 
 <body>
-  <ul>
-    {{#each inspoCard}}
-    {{> inspoCard}}
-    {{/each}}
-  </ul>
+
+   {{> inspoCard}}
+
 </body>
 
 <template name="inspoCard">
-<li>{{title}}</li>
+ <header>Inspiration Cards</header>
+
+ <body>
+   <li>{{title}}</li>
+ </body>
+ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGhfE1rSqM4NPENi026pRC31w22Tzc-Ngheb3IrGcPfj7v4l4UNdgN-58_o51_8GWnfI4&usqp=CAU" alt="sunset"/>
 </template>
 

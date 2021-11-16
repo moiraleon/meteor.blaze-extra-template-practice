@@ -8,7 +8,9 @@ InspirationalCards = new Mongo.Collection('inspoCard');
 if (MediaElementAudioSourceNode.isClient){
   Template.inspoCard.helpers({
     inspoCard: [
-      {title: "motivational quote 1"}
+      {title: "motivational quote 1"},
+      {title: "motivational quote 2"},
+      {title: "motivational quote 3"}
     ]
   });
 }
